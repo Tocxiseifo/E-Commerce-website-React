@@ -19,7 +19,7 @@ function App() {
   return (
     <context.Provider value={{shopCourt , setShopCourt,setFavorite , favorite}}>
       <Header />
-      <div className='w-full h-auto  md:overflow-auto'>
+      <div className='w-full h-auto overflow-hidden md:overflow-auto'>
         <FirstSection />
         <FeaturedProductSection />
         <PromoBannerSection />
