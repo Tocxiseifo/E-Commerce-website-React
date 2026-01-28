@@ -41,7 +41,7 @@ export default function FirstSection(){
         <>
             <section id="Hero-Section" className="relative flex flex-col  w-full h-150 bg-[url(https://storage.googleapis.com/uxpilot-auth.appspot.com/3b8cc89d15-91182110d35b7b9b5ae4.png)] bg-cover  bg-center bg-no-repeat">
                 <div className="absolute inset-0 hidden lg:flex bg-linear-to-r from-black/50 to-transparent"></div>
-                <div class="absolute inset-0 flex lg:hidden bg-linear-to-b from-black/40 to-black/60"></div>
+                <div className="absolute inset-0 flex lg:hidden bg-linear-to-b from-black/40 to-black/60"></div>
                 <div className="flex flex-col gap-3 max-w-xl w-full text-start md:justify-center md:items-center md:ml-28 [@media(min-width:375px)_and_(max-width:425px)]:left-5 items-start ml-8 xl:ml-30 mt-34 lg:mt-24 relative ">
                     <span className="text-3xl md:text-5xl lg:text-6xl w-75 md:w-full lg:w-150 text-white font-bold mb-4 leading-tight ">Summer Collection 2024</span>
                     <p className="md:text-2xl lg:text-sm relative lg:right-40 xl:right-40 text-white text-start  mb-8 font-light">Discover the latest trends in sustainable fashion</p>

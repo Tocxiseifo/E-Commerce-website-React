@@ -6,7 +6,6 @@ import AppRouter from './Routes/AppRoutes';
 import Header from './Components/Haeder'
 
 
-
 function App() {
   const [shopCourt , setShopCourt] = useState(0)
   const [favorite , setFavorite] = useState(0)
@@ -14,7 +13,7 @@ function App() {
   
   
   return (
-    <context.Provider value={{shopCourt , setShopCourt,setFavorite , favorite}}>
+    <context.Provider value={{shopCourt , setShopCourt, setFavorite, favorite}}>
       <Header />
       <AppRouter />
     </context.Provider>
